@@ -1,0 +1,19 @@
+3 April 2012
+------------
+ Makefile
+   - use generated version.h instead of config.h, and add time to version
+   - add "make reset"
+   - add "make eeprom-read"
+   - add "make eeprom-write"
+   - add "make size"
+   - add some unit-tests
+
+ Project
+ - use config.h to set global configuration defines
+ - remove "note" mode
+ - add "memo" mode
+ - store intensity setup inte eeprom
+ - store memo into eeprom
+ - add a debug mode
+ - add daylight saving time (DST) from now to 2020
+ - add pseudo double-buffered framebuffer
